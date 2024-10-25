@@ -77,6 +77,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        shift_hold {
+            bindings = <&caps_word>;
+            key-positions = <16 19>;
+            layers = <0 2 1 4 3>;
+            require-prior-idle-ms = <100>;
+        };
+
+        tabsss {
+            bindings = <&kp TAB>;
+            key-positions = <4 5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
