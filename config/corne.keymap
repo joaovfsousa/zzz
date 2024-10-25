@@ -40,9 +40,6 @@
 / {
 
   behaviors {
-    #include "macros.dtsi"
-    #include "version.dtsi"
-
     hmr: hmr {
       compatible = "zmk,behavior-hold-tap";
       label = "HMR";
