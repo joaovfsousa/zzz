@@ -23,7 +23,7 @@
             require-prior-idle-ms = <150>;
             quick-tap-ms = <175>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <66 65 69 70 16 17 29 51 50 49 48 47 13 14 26 25 27 15 28 37 36 38 39 40 41>;
+            hold-trigger-key-positions = <66 65 69 70 16 17 29 51 50 49 48 47 13 14 26 25 27 15 28 37 36 38 39 40 41 1 2 3 4 5>;
         };
 
         hml: hml {
